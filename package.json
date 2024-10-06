@@ -1,0 +1,15 @@
+{
+    "name": "usatv-stremio-addon",
+    "version": "1.0.0",
+    "description": "Stremio addon for USA TV Go",
+    "main": "./src/index.js",
+    "scripts": {
+      "start": "node ./src/server.js"
+    },
+    "dependencies": {
+      "stremio-addon-sdk": "^1.6.10",
+      "axios": "^0.21.1",
+      "cheerio": "^1.0.0-rc.10"
+    }
+  }
+  
